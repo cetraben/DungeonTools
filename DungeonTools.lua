@@ -218,18 +218,18 @@ MDT.scaleMultiplier = {}
 --https://www.wowhead.com/affixes
 --lvl 4 affix, lvl 7 affix, tyrannical/fortified, seasonal affix
 local affixWeeks = {
-    [1] =  {[1]=11,[2]=3,[3]=10,[4]=121}, -->>Bursting, Volcanic, Fortified
-    [2] =  {[1]=7,[2]=124,[3]=9,[4]=121}, -->>Bolstering, Storming, Tyrannical
-    [3] =  {[1]=123,[2]=12,[3]=10,[4]=121}, -->>Spiteful, Grievous, Fortified
-    [4] =  {[1]=122,[2]=4,[3]=9,[4]=121}, -->>Inspiring, Necrotic, Tyrannical
-    [5] =  {[1]=8,[2]=14,[3]=10,[4]=121}, -->>Sanguine, Quaking, Fortified
-    [6] =  {[1]=6,[2]=13,[3]=9,[4]=121}, -->>Raging, Explosive, Tyrannical
-    [7] =  {[1]=123,[2]=3,[3]=10,[4]=121}, -->>Spiteful, Volcanic, Fortified
-    [8] =  {[1]=7,[2]=4,[3]=9,[4]=121},  -->>Bolstering, Necrotic, Tyrannical
-    [9] =  {[1]=124,[2]=122,[3]=10,[4]=121},   -->>Storming, Inspiring, Fortified
-    [10] = {[1]=11,[2]=13,[3]=9,[4]=121},  -->>Bursting, Explosive, Tyrannical
-    [11] = {[1]=4,[2]=7,[3]=10,[4]=121},      -->>Sanguine, Grievous, Fortified
-    [12] = {[1]=6,[2]=14,[3]=9,[4]=121},   -->>Raging, Quaking, Tyrannical
+    [1] =  {[1]=10,[2]=11,[3]=3,[4]=121}, -->>Fortified, Bursting, Volcanic
+    [2] =  {[1]=9,[2]=7,[3]=124,[4]=121}, -->>Tyrannical, Bolstering, Storming
+    [3] =  {[1]=10,[2]=123,[3]=12,[4]=121}, -->>Fortified, Spiteful, Grievous
+    [4] =  {[1]=9,[2]=122,[3]=4,[4]=121}, -->>Tyrannical, Inspiring, Necrotic
+    [5] =  {[1]=10,[2]=8,[3]=14,[4]=121}, -->>Fortified, Sanguine, Quaking
+    [6] =  {[1]=9,[2]=6,[3]=13,[4]=121}, -->>Tyrannical, Raging, Explosive
+    [7] =  {[1]=10,[2]=123,[3]=3,[4]=121}, -->>Fortified, Spiteful, Volcanic
+    [8] =  {[1]=9,[2]=7,[3]=4,[4]=121},  -->>Tyrannical, Bolstering, Necrotic
+    [9] =  {[1]=10,[2]=124,[3]=122,[4]=121},   -->>Fortified, Storming, Inspiring
+    [10] = {[1]=9,[2]=11,[3]=13,[4]=121},  -->>Tyrannical, Bursting, Explosive
+    [11] = {[1]=10,[2]=4,[3]=7,[4]=121},      -->>Fortified, Sanguine, Grievous
+    [12] = {[1]=9,[2]=6,[3]=14,[4]=121},   -->>Tyrannical, Raging, Quaking
 }
 
 
